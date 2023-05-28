@@ -27,9 +27,15 @@
     <ClInclude Include="src\GameLab\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\GameLab\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\GameLab\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameLab\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

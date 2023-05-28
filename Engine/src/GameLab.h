@@ -2,8 +2,8 @@
 
 //For use by GameLab applicaions
 
-#include <stdio.h>
 #include "GameLab/Application.h"
+#include "GameLab/Log.h"
 
 //Entry point
 #include "GameLab/EntryPoint.h"
