@@ -8,7 +8,7 @@ extern GameLab::Application* GameLab::CreateApplication();
 int main(int argc, char** argv) {
 
 	GameLab::Log::Init();
-	GL_CORE_CRITICAL("Initialized the log (finally)!!!");
+	GL_CORE_WARN("Initialized the log (finally)!!!");
 	GL_INFO("What up, biscuit?!");
 
 	auto app = GameLab::CreateApplication();
