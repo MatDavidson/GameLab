@@ -4,6 +4,9 @@
     <Filter Include="GameLab">
       <UniqueIdentifier>{4EFD5747-BADC-D6E2-C3F4-61B92F533D44}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameLab\Events">
+      <UniqueIdentifier>{72E55D96-5EB3-519C-4747-C2C233B42D01}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\GameLab.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\GameLab\EntryPoint.h">
       <Filter>GameLab</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameLab\Events\ApplicationEvent.h">
+      <Filter>GameLab\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameLab\Events\Event.h">
+      <Filter>GameLab\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameLab\Events\KeyEvent.h">
+      <Filter>GameLab\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameLab\Events\MouseEvent.h">
+      <Filter>GameLab\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\GameLab\Log.h">
       <Filter>GameLab</Filter>
