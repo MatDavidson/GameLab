@@ -34,6 +34,7 @@
     <ClInclude Include="src\GameLab\Log.h">
       <Filter>GameLab</Filter>
     </ClInclude>
+    <ClInclude Include="src\glpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\GameLab\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\GameLab\Log.cpp">
       <Filter>GameLab</Filter>
     </ClCompile>
+    <ClCompile Include="src\glpch.cpp" />
   </ItemGroup>
 </Project>

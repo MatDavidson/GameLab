@@ -1,9 +1,7 @@
 #pragma once
 
+#include "glpch.h"
 #include "GameLab/Core.h"
-
-#include <string>
-#include <functional>
 
 namespace GameLab {
 

@@ -18,6 +18,9 @@ project "Engine"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "glpch.h"
+	pchsource "Engine/src/glpch.cpp"
+
     files{
         "%{prj.name}/src/**.h",
         "%{prj.name}/src/**.cpp"

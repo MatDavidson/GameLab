@@ -1,3 +1,4 @@
+#include "glpch.h"
 #include "Log.h"
 
 namespace GameLab {

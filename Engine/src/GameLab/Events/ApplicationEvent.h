@@ -2,8 +2,6 @@
 
 #include "GameLab/Events/Event.h"
 
-#include <sstream>
-
 namespace GameLab {
 
 	class WindowResizeEvent : public Event
